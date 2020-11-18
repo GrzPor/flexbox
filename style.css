@@ -1,0 +1,76 @@
+:root {
+    --red: #EF5350;
+    --pink: #EC407A;
+    --purple: #AB47BC;
+    --blue: #42A5F5;
+    --cyan: #26C6DA;
+    --teal: #26A69A;
+    --green: #66BB6A;
+    --light_green: #9CCC65;
+    --lime: #D4E157;
+    --yellow: #FFEE58;
+    --amber: #FFCA28;
+    --orange: #FFA726;
+    --brown: #8D6E63;
+    --blue-grey: #78909C;
+    --grey :#BDBDBD ;
+    --black: #000000;
+}
+body {
+    margin: 0;
+}
+.page-wrapper {
+    width: 960px;   
+    margin: 0 auto;    
+    text-align: center;
+}
+section {
+    width: 100%;
+}
+.page-title {
+    
+}
+.section-title {
+
+}
+.box-wrapper { 
+    display: flex;
+    width: 100%;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+.red {
+    background-color: var(--red);
+}
+.pink {
+    background-color: var(--pink);
+}
+.purple {
+    background-color: var(--purple);
+}
+.blue {
+    background-color: var(--blue);
+}
+.cyan {
+    background-color: var(--cyan);
+}
+.teal {
+    background-color: var(--teal);
+}
+.green {
+    background-color: var(--green);
+}
+.light_green {
+    background-color: var(--light_green);
+}
+.justify-content-start {
+    justify-content: flex-start;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.justify-content-center {
+    justify-content: center;
+}
