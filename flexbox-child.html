@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox Training Page - rows (parent)</title>
+</head>
+<body>
+    <nav class="page-nav">
+        <ul>
+            <li>
+                <a href="flexbox-rows.html">Rows</a>              
+            </li>
+            <li>
+                <a href="flexbox-columns.html">Columns</a>
+            </li>
+        </ul>
+    </nav>
+    <main>               
+        <h1 class="page-title">Flexbox Training Page - children</h1>
+        
+        <div class="box-groups">
+            <div class="box-group">
+                <h2 class="section-title">flex-direction: row & child of flex has default flex-shrink: 1</h2>
+                <div class="box-wrapper box-wrapper_sm flex-direction-row">
+                    <div class="box pastel-green"></div>              
+                    <div class="box sky-blue"></div>              
+                    <div class="box violet"></div>              
+                    <div class="box fiolek"></div>              
+                    <div class="box magenta"></div>              
+                    <div class="box gold"></div>              
+                </div>           
+            </div>    
+            <div class="box-group">
+                <h2 class="section-title">flex-direction: row & flex-shrink: 0 & default flex has flex-wrap: nowrap</h2>
+                <div class="box-wrapper box-wrapper_sm flex-direction-row">
+                    <div class="box flex-shrink-false pastel-green"></div>              
+                    <div class="box flex-shrink-false sky-blue"></div>              
+                    <div class="box flex-shrink-false violet"></div>              
+                    <div class="box flex-shrink-false fiolek"></div>              
+                    <div class="box flex-shrink-false magenta"></div>              
+                    <div class="box flex-shrink-false gold"></div>              
+                </div>           
+            </div>           
+            <div class="box-group">
+                <h2 class="section-title">flex-direction: row & flex-shrink: 0 & flex-wrap: wrap</h2>
+                <div class="box-wrapper box-wrapper_sm flex-direction-row flex-wrap">
+                    <div class="box flex-shrink-false pastel-green"></div>              
+                    <div class="box flex-shrink-false sky-blue"></div>              
+                    <div class="box flex-shrink-false violet"></div>              
+                    <div class="box flex-shrink-false fiolek"></div>              
+                    <div class="box flex-shrink-false magenta"></div>              
+                    <div class="box flex-shrink-false gold"></div>              
+                </div>           
+            </div>  
+            <div class="box-group">
+                <h2 class="section-title">flex-direction: row & flex-shrink: 0 & flex-grow: 1 & flex-wrap: wrap</h2>
+                <div class="box-wrapper box-wrapper_sm flex-direction-row flex-wrap">
+                    <div class="box flex-shrink-false flex-grow-true pastel-green"></div>              
+                    <div class="box flex-shrink-false flex-grow-true sky-blue"></div>              
+                    <div class="box flex-shrink-false flex-grow-true violet"></div>              
+                    <div class="box flex-shrink-false flex-grow-true fiolek"></div>              
+                    <div class="box flex-shrink-false flex-grow-true magenta"></div>              
+                    <div class="box flex-shrink-false flex-grow-true gold"></div>              
+                </div>           
+            </div>                                                        
+        </div>     
+
+        <div class="box-groups">
+            <div class="box-group">
+                <h2 class="section-title">flex-direction: row & flex-grow: 0</h2>
+                <div class="box-wrapper box-wrapper_md flex-direction-row">
+                    <div class="box pastel-green"></div>              
+                    <div class="box sky-blue"></div>              
+                    <div class="box violet"></div>              
+                    <div class="box fiolek"></div>              
+                    <div class="box magenta"></div>              
+                    <div class="box gold"></div>              
+                </div>           
+            </div>    
+            <div class="box-group">
+                <h2 class="section-title">flex-direction: row & flex-grow: 1</h2>
+                <div class="box-wrapper box-wrapper_md flex-direction-row">
+                    <div class="box flex-grow-true pastel-green"></div>              
+                    <div class="box flex-grow-true sky-blue"></div>              
+                    <div class="box flex-grow-true violet"></div>              
+                    <div class="box flex-grow-true fiolek"></div>              
+                    <div class="box flex-grow-true magenta"></div>              
+                    <div class="box flex-grow-true gold"></div>                       
+                </div>           
+            </div>   
+            <div class="box-group">
+                <h2 class="section-title">flex-direction: row & flex-grow: 1 & flex-wrap: wrap</h2>
+                <div class="box-wrapper box-wrapper_md flex-wrap flex-direction-row">
+                    <div class="box flex-grow-true pastel-green"></div>              
+                    <div class="box flex-grow-true sky-blue"></div>              
+                    <div class="box flex-grow-true violet"></div>              
+                    <div class="box flex-grow-true fiolek"></div>              
+                    <div class="box flex-grow-true magenta"></div>              
+                    <div class="box flex-grow-true gold"></div>    
+                    <div class="box flex-grow-true violet"></div>              
+                    <div class="box flex-grow-true fiolek"></div>       
+                </div>           
+            </div>                                                     
+        </div>     
+
+    </main>
+</body>
+</html>
+
+
+
+
+

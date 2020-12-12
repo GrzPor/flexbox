@@ -1,5 +1,5 @@
 # flexbox
-Single page for display flex training
+Few simple pages for display flex training
 
 Stuff like:
-display flex, flex direction, align content, justify content etc..
+display flex, flex direction, align content, justify content, flex-shrink, flex-grow, flex-wrap etc..
